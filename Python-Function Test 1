@@ -1,0 +1,54 @@
+def song(): 
+  print("Row, row, row your boat,")
+  print("Gently down the stream.")
+  print("Merrily, merrily, merrily, merrily,")
+  print("Life is but a dream.	")
+  
+# call the song function
+song()
+# call the song function again
+song()
+
+--------------------------------
+
+def winter_alert():
+  print("winter warning")
+  print("temps damn low")
+  print("bring yo kids and pets inside")
+  print("")
+  
+winter_alert()
+
+winter_alert()
+
+-------------------------------------------------------
+#function defined
+def winter_alert():
+  print("winter warning!")
+  print("temps damn low")
+  print("bring yo kids and pets inside")
+  print("")
+
+#iterate 3 times  
+num=3
+for _ in range(num):
+  winter_alert()
+
+---------------------------------------------------------
+
+#color = input ("color:")
+
+#def fav_color():
+#  print ('my fav color is', color)
+  
+#fav_color()
+
+
+name =input ("name:")
+rhymes_with_name =input ("rhymes with name:")
+
+def rhyme():
+  print ("may name is ",name, "and I am ", rhymes_with_name)
+  
+rhyme()
+rhyme()
