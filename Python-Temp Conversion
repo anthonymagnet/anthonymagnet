@@ -1,0 +1,46 @@
+#temp convert project
+
+import math
+T = input("kelvin temp: ")
+print(T)
+
+kelvin_temp=301
+
+diff=273.15
+C_temp=kelvin_temp-diff
+#round up to nearest number
+C_temp=(math.floor(C_temp))
+
+F_temp=C_temp*(9/5)+32
+#remove decimal places, do not round
+F_temp=(math.trunc(F_temp))
+
+
+print (kelvin_temp,"Kelvin=")
+print (C_temp, "C")
+print (F_temp,"F")
+print ("Kelvin temp "+ str(kelvin_temp)+" is",str(F_temp)+" degrees F")
+
+
+--------------------------------------------------
+
+#temp convert project
+
+import math
+
+kelvin_temp=301
+
+diff=273.15
+C_temp=kelvin_temp-diff
+#round up to nearest number
+C_temp=(math.floor(C_temp))
+
+F_temp=C_temp*(9/5)+32
+#remove decimal places, do not round
+F_temp=(math.trunc(F_temp))
+
+
+print (kelvin_temp,"Kelvin=")
+print (C_temp, "C")
+print (F_temp,"F")
+print ("Kelvin temp "+ str(kelvin_temp)+" is",str(F_temp)+" degrees F")
